@@ -24,7 +24,7 @@ while True:
 
       continue_game = input("Want To Continue? (y/n): ")
       if continue_game == "y":
-          break
+          continue
       elif continue_game == "n":
           print("Thanks For Playing")
           break
